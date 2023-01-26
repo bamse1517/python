@@ -48,6 +48,7 @@ h = 5
 a = w * h /2
 print(f"너비 {w}cm, 높이 {h}cm 인 사각형의 넓이는 {a}cm 입니다.")
 
+# f-string
 width = 10
 height = 5
 rect_area = width * height /2
