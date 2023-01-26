@@ -42,6 +42,7 @@
 # circle_area = radius * radius * pi
 # print(circle_area)
 
+# f-string
 w = 10
 h = 5
 a = w * h /2
@@ -50,13 +51,15 @@ print(f"너비 {w}cm, 높이 {h}cm 인 사각형의 넓이는 {a}cm 입니다.")
 width = 10
 height = 5
 rect_area = width * height /2
-print("너비 {width}cm, 높이 {height}cm 인 사각형의 넓이는 {rect_area}cm 입니다.")
+print(f"너비 {width}cm, 높이 {height}cm 인 사각형의 넓이는 {rect_area}cm 입니다.")
 
+# 서식문자
 width = 10
 height = 5
 rect_area = width * height /2
 print("너비 %dcm, 높이 %dcm 인 사각형의 넓이는 %dcm 입니다." % (width, height, rect_area))
 
+# format 함수
 width = 10
 height = 5
 rect_area = width * height /2
