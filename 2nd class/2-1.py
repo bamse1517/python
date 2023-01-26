@@ -27,5 +27,5 @@
 # sentence = ''Good day' he tought.'
 # print(sentence)
 
-# sentence = "'Good day' he tought."
-# print(sentence)
+sentence = "'Good day' he tought."
+print(sentence)
