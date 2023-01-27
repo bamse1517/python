@@ -47,9 +47,9 @@
 # str_1 = "python"
 # print(str_1 / 3)
 
-str_1 = "python_"
-str_2 = "python"
-print(str_1 * 99 + str_2)
+# str_1 = "python_"
+# str_2 = "python"
+# print(str_1 * 99 + str_2)
 
 str_1 = "python"
 str_2 = "-"
