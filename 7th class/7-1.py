@@ -50,6 +50,7 @@
 # print(48)
 # print(49)
 
+
 # # 50개의 숫자를 출력하는 프로그램 (반복문)
 # for i in range(50):
 #   print(i)
