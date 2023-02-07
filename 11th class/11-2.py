@@ -22,7 +22,6 @@
 # # 메인루프 실행
 # window.mainloop()
 
-
 # from tkinter import *
 
 # # 이벤트 함수 정의
