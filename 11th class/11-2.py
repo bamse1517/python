@@ -1,51 +1,50 @@
-# 버튼과 라벨
-from tkinter import *
+# # 버튼과 라벨
+# from tkinter import *
 
-# 화면 생성
-window = Tk()
-window.title("window name")
-window.geometry("500x500")
-window.resizable(width=FALSE, height=TRUE)
+# # 화면 생성
+# window = Tk()
+# window.title("window name")
+# window.geometry("500x500")
+# window.resizable(width=FALSE, height=TRUE)
 
-# 이벤트 함수 정의
-def btn_func():
-    pass
+# # 이벤트 함수 정의
+# def btn_func():
+#     pass
 
-# UI 생성
-label = Label(window, text="라벨입니다.")
-btn = Button(window, text="클릭", fg="red", command=btn_func)
+# # UI 생성
+# label = Label(window, text="라벨입니다.")
+# btn = Button(window, text="클릭", fg="red", command=btn_func)
 
-# UI 배치
-label.pack()
-btn.pack()
+# # UI 배치
+# label.pack()
+# btn.pack()
 
-# 메인루프 실행
-window.mainloop()
+# # 메인루프 실행
+# window.mainloop()
 
 
-#
-from tkinter import *
+# from tkinter import *
 
-# 이벤트 함수 정의
-def btn_func():
-    label.configure(text="버튼을 클릭했어요!")
+# # 이벤트 함수 정의
+# def btn_func():
+#     label.configure(text="버튼을 클릭했어요!")
 
-# 화면 생성
-window = Tk()
-window.title("window name")
-window.geometry("500x500")
-window.resizable(width=FALSE, height=TRUE)
+# # 화면 생성
+# window = Tk()
+# window.title("window name")
+# window.geometry("500x500")
+# window.resizable(width=FALSE, height=TRUE)
 
-# UI 생성
-label = Label(window, text="라벨입니다.")
-btn = Button(window, text="클릭", fg="red", command=btn_func)
+# # UI 생성
+# label = Label(window, text="라벨입니다.")
+# btn = Button(window, text="클릭", fg="red", command=btn_func)
 
-# UI 배치
-btn.pack()
-label.pack()
+# # UI 배치
+# btn.pack()
+# label.pack()
 
-# 메인루프 실행
-window.mainloop()
+# # 메인루프 실행
+# window.mainloop()
 
 
 # 버튼과 라벨과 리스트
